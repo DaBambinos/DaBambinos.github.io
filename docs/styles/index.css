@@ -1,0 +1,315 @@
+.head {
+  position: relative;
+}
+
+.section-1 {
+  background-color: #D4F1FE;
+  margin-top: -133px;
+  padding-bottom: 100px;
+  padding-top: 133px;
+}
+
+.section-1 .container {
+  display: flex;
+}
+
+.section-1 .container img {
+  width: 100%;
+}
+
+.section-1 .container p {
+  color: #8797b1;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.section-1 .container h1 {
+  font-family: 'Holidays', Arial, Helvetica, sans-serif;
+  font-size: 66px;
+  line-height: 85px;
+  margin: 0;
+  text-align: justify;
+}
+
+.section-1 .container h1 mark {
+  background-color: transparent;
+}
+
+.section-1 .container h1 mark:nth-child(1) {
+  color: #FEB320;
+}
+.section-1 .container h1 mark:nth-child(2) {
+  color: #99809D;
+}
+.section-1 .container h1 mark:nth-child(3) {
+  color: #E586C5;
+}
+.section-1 .container h1 mark:nth-child(4) {
+  color: #78CB4C;
+}
+.section-1 .container h1 mark:nth-child(5) {
+  color: #F5A554;
+}
+.section-1 .container h1 mark:nth-child(6) {
+  color: #42ADE5;
+}
+
+.section-1 .left {
+  flex-basis: 35%;
+  flex-grow: 0;
+  padding-top: 150px;
+}
+
+.section-1 .right {
+  flex-basis: 65%;
+  flex-grow: 0;
+}
+
+.section-1 .right .kid {
+  display: none;
+}
+
+.section-1 .right .copy {
+  padding: 0 40px 0 80px;
+}
+
+.section-1 .right .foot {
+  text-align: right;
+}
+
+.section-1 .right .foot img {
+  max-width: 200px;
+}
+
+.section-2 {
+  background-color: #ECFFF3;
+  font-family: 'Rammettoone', Impact, sans-serif;
+  font-size: 30px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;;
+}
+
+.section-2 a {
+  color: #5A6D7C;
+  display: inline-block;
+  padding: 40px 30px;
+}
+
+.section-2 a:hover,
+.section-2 a.active {
+  color: #FEB320
+}
+
+.section-2 img {
+  height: 24px;
+}
+
+.section-3 {
+  padding: 100px 0;
+}
+
+.section-3 .row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.section-3 img {
+  height: 370px;
+}
+
+.section-4 .section-body {
+  background-image: url(/images/paper-body.png);
+  background-size: 100%;
+  font-family: 'Holidays', Arial, Helvetica, sans-serif;
+  padding: 1px 0 120px;
+  position: relative;
+}
+
+.section-4 .section-body .container {
+  background-image: url(/images/map-doodles-2.png);
+  background-repeat: no-repeat;
+  background-position: center 150px;
+  background-size: 100%;
+  max-width: 790px;
+}
+
+.section-4 .section-header,
+.section-4 .section-footer {
+  display: block;
+  width: 100%;
+}
+
+.section-4 .title {
+  text-align: center;
+}
+
+.section-4 .title img {
+  width: 500px;
+}
+
+.section-4 .phases {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+
+.section-4 .phases p {
+  color: #262C2D;
+}
+
+.section-4 .phases img {
+  width: 150px;
+}
+
+.section-4 .phases .phase-1 {
+  margin: 120px 0 0 200px;
+}
+
+.section-4 .phases .phase-1 h3 {
+  color: #168B29; 
+}
+
+.section-4 .phases .phase-1 img {
+  margin: -30px 0 0 60px;
+}
+
+.section-4 .phases .phase-2 {
+  margin: 20px 0 0 -450px;
+}
+
+.section-4 .phases .phase-2 h3 {
+  color: #36649F; 
+}
+
+.section-4 .phases .phase-2 img {
+  margin: 0 0 0 -70px;
+}
+
+.section-4 .phases .phase-3 {
+  margin: 150px 0 0 -150px;
+}
+
+.section-4 .phases .phase-3 h3 {
+  color: #913DBB; 
+}
+
+.section-4 .phases .phase-3 img {
+  margin: -22px 0 0 130px;
+}
+
+@media(max-width: 960px) {
+  .section-2 a {
+    font-size: 20px;
+    padding: 40px 20px;
+  }
+}
+
+@media(max-width: 790px) {
+  .section-4 .section-body .container {
+    background-position: center 90px;
+    background-size: auto 635px;
+    max-width: 500px;
+  }
+
+  .section-4 .phases {
+    font-size: 20px;
+  }
+
+  .section-4 .title img {
+    width: 250px;
+  }
+
+  .section-4 .phases h3 {
+    margin-bottom: 0;
+  }
+  .section-4 .phases p {
+    margin-top: 0;
+  }
+  .section-4 .phases img {
+    width: 100px
+  }
+  .section-4 .phases .phase-1 {
+    margin: 80px 0 0 120px;
+  }
+  .section-4 .phases .phase-1 img {
+    margin: -20px 0 0 60px;
+  }
+  .section-4 .phases .phase-2 {
+    margin: 20px 0 0 -300px;
+  }
+  .section-4 .phases .phase-2 img {
+    margin: 0px 0 0 -40px;
+  }
+  .section-4 .phases .phase-3 {
+    margin: 70px 0 0 -80px;
+  }
+  .section-4 .phases .phase-3 img {
+    margin: 0 0 0 100px;
+  }
+}
+
+@media(max-width: 767px) {
+  .section-1 {
+    margin-top: -247px;
+    padding-top: 247px;
+  }
+
+  .section-1 .right .copy {
+    padding: 0 20px;
+  }
+
+  .section-1 .container h1 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .section-1 .container p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .section-3 img {
+    height: 300px;
+  }
+}
+
+@media(max-width: 645px) {
+  .section-2 .container {
+    max-width: 410px;
+  }
+}
+
+@media(max-width: 500px) {
+  .section-1 .container {
+    display: block;
+    text-align: center;
+  }
+  .section-1 .left {
+    display: none;
+  }
+  .section-1 .right .kid {
+    display: inline;
+    width: 50%;
+  }
+  .section-3 img {
+    height: 200px;
+  }
+  .section-4 .phases p {
+    font-size: 15px;
+  }
+  .section-4 .phases .phase-1 {
+    margin: 90px 0 0 40px;
+  }
+  .section-4 .phases .phase-2 {
+    margin: 20px 0 0 -230px;
+  }
+  .section-4 .phases .phase-2 img {
+    margin: 0px 0 0 -60px;
+  }
+}
